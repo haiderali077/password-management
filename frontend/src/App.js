@@ -1,5 +1,5 @@
 
-import './App.css';
+import './defaultStyle.css';
 import { useState, useEffect } from 'react';
 import Axios from 'axios';
 
