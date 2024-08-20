@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: lightcyan;
+    font-family: 'Arial', sans-serif;
+  
+  }
+  
+  .addPassword {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgrey;
+    width: 60%;
+    max-width: 500px;
+    height: 300px;
+    border-radius: 15px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .addPassword button, .addPassword input {
+    width: 100%;
+    max-width: 400px;
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+    margin: 12px 0;
+    padding-left: 15px;
+    font-size: 18px;
+    box-shadow: 0 2px 4px rgba(25, 24, 24, 0.1);
+  }
+  
+  .addPassword input {
+    background-color: #f9f9f9;
+    transition: background-color 0.3s ease;
+  }
+  
+  .addPassword input:focus {
+    background-color: #e6f7ff;
+    outline: none;
+  }
+  
+  .addPassword button {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .addPassword button:hover {
+    background-color: #23dd52;
+    transform: translateY(-2px);
+    cursor: pointer;
+  }
+  
+  .showPasswords {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .password {
+    width: 100%;
+    max-width: 400px;
+    height: 70px;
+    background-color: #333;
+    border-radius: 8px;
+    color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .password:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
